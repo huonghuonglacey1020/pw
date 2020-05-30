@@ -1,0 +1,63 @@
+body{
+    background-color: lavender;
+    margin:0;
+    color: red;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    background-color: lightcoral;
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.btn{
+    grid-column: span 2;
+    background-color: transparent;
+    border: 2px solid white;
+    color: tomato;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+
+}
+.btn:hover{
+    background-color: teal;
+}
+title{
+    margin: 0;
+    text-align: center;
+    color: blue;
+}
+.password-display{
+    background-color: white;
+    color: black;
+    padding:1rem;
+    border:1px solid #333;
+    height: 2rem;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    border-radius: .5rem;
+
+}
